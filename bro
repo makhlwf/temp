@@ -6,7 +6,7 @@ _get_ziplink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "sbb_b" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RoZWptdGhvbi9qbXViL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL21ha2hsd2YvTUFLVEhPTg==" | base64 -d
     elif [[ $UPSTREAM_REPO == "beta" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL2ptdGhvbnIvam11Yi9hcmNoaXZlL21hc3Rlci56aXA==" | base64 -d
